@@ -1,0 +1,19 @@
+ table {
+    table-layout: fixed;
+    font: larger monospace;
+    border-collapse: collapse;
+  }
+  div.row1 {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+  }
+  div.row1:hover {
+    z-index: 1;
+    width: auto;
+    background-color: #FFFFCC;
+  }
