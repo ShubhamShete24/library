@@ -32,6 +32,7 @@ function RegisterPage() {
 
     return (
         <div>
+                <h1 className='container my-4'style={{textAlign:"center"}}>Register User</h1>
             <div className="container floating-form my-5">
                 <div className="floating-label my-4 mx-3">
                     <input className="floating-input" type="email" value={email} placeholder=" "
@@ -52,13 +53,13 @@ function RegisterPage() {
                     <label>Enter Password</label>
                 </div>
                 <div className="floating-label input-group">
-                    <button className="btn btn-outline-primary mx-3 my-3 btn-sm "
+                    <button className="btn btn-outline-primary mx-5 my-3 btn-sm "
                         type="button" onClick={registerUser}>
                         Register
                     </button>
                     <Link to='/login'>
                         <button className="btn btn-outline-primary mx-3 my-3 btn-sm "
-                            type="button">
+                            type="button" >
                             Sign In
                         </button>
                     </Link>
